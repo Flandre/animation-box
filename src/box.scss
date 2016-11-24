@@ -1,0 +1,17 @@
+body{
+  background: #000;
+}
+.box-container{
+  perspective: 1000px;
+}
+.box-container div{
+  display: table
+}
+.box-container div span{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.test{
+  background: #000;
+}
