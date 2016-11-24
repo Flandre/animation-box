@@ -3,15 +3,30 @@ body{
 }
 .box-container{
   perspective: 1000px;
-}
-.box-container div{
-  display: table
-}
-.box-container div span{
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.test{
-  background: #000;
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -150px;
+  border:1px solid #fff;
+  div{
+    span{
+      font-size: 50px;
+      color: #fff;
+    }
+  }
+  .main{
+    border:5px solid #fff;
+    width: 290px;
+    height: 290px;
+    transform: rotateX(80deg);
+    .cover{
+      border:5px solid #fff;
+      width: 290px;
+      height: 290px;
+      transform: translateZ(100px)
+    }
+  }
 }

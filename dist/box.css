@@ -2,14 +2,25 @@ body {
   background: #000; }
 
 .box-container {
-  perspective: 1000px; }
-
-.box-container div {
-  display: table; }
-
-.box-container div span {
-  display: table-cell;
-  vertical-align: middle; }
-
-.test {
-  background: #000; }
+  perspective: 1000px;
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -150px;
+  border: 1px solid #fff; }
+  .box-container div span {
+    font-size: 50px;
+    color: #fff; }
+  .box-container .main {
+    border: 5px solid #fff;
+    width: 290px;
+    height: 290px;
+    transform: rotateX(80deg); }
+    .box-container .main .cover {
+      border: 5px solid #fff;
+      width: 290px;
+      height: 290px;
+      transform: translateZ(100px); }
